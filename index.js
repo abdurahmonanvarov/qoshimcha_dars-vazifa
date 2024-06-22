@@ -167,11 +167,21 @@
 
 //4-masala
 // function findIndex(arr, element) {
-//   arr.find(function (value, index, ar) {
-//     return index > element;
+//  let res = arr.find(function (value, index, ar) {
+//     return value > element;
 //   });
+//   return res;
 // }
 // console.log(findIndex([1, 2, 3, 4, 5], 3));
+
+//5-masala
+// function useFind(arr, element){
+//     let res = arr.findIndex(function(valiu, index, ar){
+//         return  valiu > element;
+//     });
+//     return res;
+// }
+// console.log(useFind([1,2,3,4,5],4));
 
 //6-masala
 // function findIndex(arr, element) {
@@ -205,3 +215,11 @@
 // console.log(findIndex([1, 2, 3, 4, 5, "salomlar"], 4));
 
 //9-masala
+// function findElement(arr){
+//    let res =  arr.find(function(valyu){
+//         return valyu > 100;
+//     });
+//     return res;
+    
+// }
+// console.log(findElement([1,2,3,4,120]));
